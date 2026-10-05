@@ -1,24 +1,14 @@
 # Sensitive files
 credentials.txt
-*.env
+
+# Environment files
 .env
 .env.*
-!.env.example
-
-# Java / Maven
-target/
-*.class
-
-# IntelliJ IDEA
-.idea/
-*.iml
-
-# VS Code
-.vscode/
 
 # OS files
-.DS_Store
 Thumbs.db
+.DS_Store
 
-# Logs
-*.log
+# IDE
+.idea/
+.vscode/
